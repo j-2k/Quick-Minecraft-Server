@@ -6,15 +6,14 @@ A quick MC guide because I encountered some issues I had never experienced befor
 2. Server Setup Guide
 3. Port-Forwarding
 
-## 1. Pre-requisites
+# 1. Pre-requisites
 abcd
 
-## 2. Server Setup Guide
+# 2. Server Setup Guide
 abcd
 
-## 3. Port-Forwarding
+# 3. Port-Forwarding
 abcd
-
 
 ## Other Issues:
 - ### 2 Router setup/extender:
