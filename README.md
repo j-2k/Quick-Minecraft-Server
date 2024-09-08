@@ -1,6 +1,20 @@
 # Quick-Minecraft-Server
 A quick MC guide because I encountered some issues I had never experienced before. Maybe I will also try to just make a quick setup method like 1 button! That would be fun.
 
+**Contents**
+1. Pre-requisites
+2. Server Setup Guide
+3. Port-Forwarding
+
+## 1. Pre-requisites
+abcd
+
+## 2. Server Setup Guide
+abcd
+
+## 3. Port-Forwarding
+abcd
+
 
 ## Other Issues:
 - ### 2 Router setup/extender:
