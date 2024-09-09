@@ -6,8 +6,10 @@ A quick MC guide because I encountered some issues I had never experienced befor
 2. Server Setup Guide
 3. Port-Forwarding
 
+After step 3 the server should be working!
+
 # 1. Pre-requisites
-abcd
+Make sure to have the latest-lts Java dev kit, you can read more about installing it by scrolling down or by clicking [here](#javalinkage) to take you down! 
 
 # 2. Server Setup Guide
 abcd
@@ -22,7 +24,7 @@ abcd
 
 ##
 
-- ### Java Versioning / Linkage Issues:
+- <a name="javalinkage"> ### Java Versioning / Linkage Issues: 
 Linkage errors occur when you have an outdated Java version compared to what the mc server is running on!
   1. First, open your desired terminal and paste the following ```javac -version``` & then ```java -version``` (my java -version displayed java 18 from 2022 which was outdated when trying to make an mc server on 1.21.1! javac and java -v commands didn't match either!)
   2. If you know you installed multiple Java versions I suggest you uninstall all of them and start fresh, I came across a conflict where Bash was detecting an old version and not using my latest versions!
