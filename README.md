@@ -8,14 +8,46 @@ A quick MC guide because I encountered some issues I had never experienced befor
 
 After step 3 the server should be working!
 
-# 1. Pre-requisites
-Make sure to have the latest-lts Java dev kit, you can read more about installing it by scrolling down or by clicking [here](#javalinkage) to take you down! 
+# 1. Pre-requisites (Java Development Kit)
+- Make sure to have the latest-lts Java dev kit or whatever is latest on the Java dev kit download page ***(It is especially important you get the latest versions in the case you want to play the latest verisons of minecraft java edition!)***.
+- You can download it here first > https://www.oracle.com/java/technologies/downloads/
+  - Choose your correct operating system first in the downloads section.
+  - I'm on Windows, so I got the x64 installer in the Windows tab.
+- If you come across issues/java linkage issues later on when the server starts you can read more about a java linking error I recieved when running my server by scrolling down or by clicking [here](#javalinkage) to take you down to where I talked about my java linkage issue! 
 
 # 2. Server Setup Guide
 abcd
 
 # 3. Port-Forwarding
-abcd
+***These steps might be different for some people since not everyone has the same router brand, so it's a good idea to actually just look up a portforwarding guide on your specific router brand! But I made this since I just do it manually everytime & I came across a dumb issue with 2 routers that had me do an extra step I never had to do before!***
+1. To get started open your terminal/command prompt. ***(Port Forwarding is easy, but there are some caveats like in my special case of 2 routers!)***
+2. Paste in the command ```ipconfig /all``` then hit enter!
+3. Find your connected network to the internet & in that section find these 2 entries ```Default Gateway: 192.168.X.XXX``` & ```IPV4 Address: 192.168.X.XXX (Preferred)``` (X is placeholder number as they are different, 192.168 "should" be constant) Note these 2 numbers down.
+4. Open your browser of choice & paste the default gateway IP into the browser URL, here you need to enter your username & password, if you dont know them you should try the commonly used default usernames & passwords on routers which I put below! (Below I seperate the username on the left and the password on the right!)
+  - Before you even start trying the usernames & passwords I put below, go to your router and check the underside panel of the router, in most cases a username and password is ALREADY listed on a small piece of paper glued to the bottom of the router, you should try that username & password first!
+  - admin | admin
+  - admin | *empty password, dont put anything in the password slot!*
+  - username | password
+  - ADMIN | ADMIN
+  - You can look up a table of common usernames & password for your specific router by just googling it as well but one of these "should" work unless someone put a custom user & pass.
+5. Assuming you now are logged in, you need to find where your port forwarding section is:
+  - This is different for all routers, so either google your router or play around the tabs to find it, dont fuck up & change anything here thats on you, unless you know what you are doing.
+  - Common places to look for are in the wireless tab &/OR NAT forwarding tab, in most cases the port forwarding section should be there somewhere.
+6. Now if you are in the port forwarding page of your router, add a port entry. There is just 3 things that are important here you need to fill out.
+  - External/Internal Port (Also called just Port on some routers): 25565
+  - IP Address: Put your ```IPV4 Address: 192.168.X.XXX (Preferred)``` (Remember that 2nd number we noted down? put it here just the IP (the numbers))
+  - Connection Type: TCP & UDP
+  - You can also name this entry, put whatever you want I just put mctest.
+7. Done! Now if you want your friends to connect to your server, just open your server first then go on google and search "what is my ip?" and copy that and google should list your public IP, give that IP to your friends, followed by 25565, so assume my public ip is ```269.69.420.100```, you give your friends ```269.69.420.100:25565``` (I think it isnt important to include the port iirc, so dont worry).
+- IMPORTANT Extra Notes:
+  - You should know the security risks that comes with exposing a port! So be mindful who you give the IP to!
+  - YOUR PUBLIC IP AND IPV4 ADDRESS WILL MOST LIKELY CHANGE FROM TIME TO TIME (unless you have a static IP, in which I guess you already know what you are doing, but most have dynamic!). If your public IP changes, which is what showed up when you typed "what is my ip" into google, you need to give that new IP to your friends, some cases the IPV4 Address will also change, if that changes you need to enter your portforwarding tab in your router again in step 6 and edit the entry of the port that you forwarded & change IPV4 Address listed in there!
+
+### Port forwarding on 2 routers!
+This part messed me up & didn't think about it since I'm now connected to an extender/secondary router. An extra step is needed for forwarding a port on 2 routers. This part will not be very detailed, sorry it's a reminder for me.
+1. 
+2. 
+3. 
 
 ## Other Issues:
 - ### 2 Router setup/extender:
