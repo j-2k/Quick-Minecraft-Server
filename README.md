@@ -24,7 +24,7 @@ abcd
 
 ##
 
-- <a name="javalinkage"> ### Java Versioning / Linkage Issues: 
+- ### <a name="javalinkage"> Java Versioning / Linkage Issues: 
 Linkage errors occur when you have an outdated Java version compared to what the mc server is running on!
   1. First, open your desired terminal and paste the following ```javac -version``` & then ```java -version``` (my java -version displayed java 18 from 2022 which was outdated when trying to make an mc server on 1.21.1! javac and java -v commands didn't match either!)
   2. If you know you installed multiple Java versions I suggest you uninstall all of them and start fresh, I came across a conflict where Bash was detecting an old version and not using my latest versions!
