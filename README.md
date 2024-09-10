@@ -45,9 +45,11 @@ abcd
 
 ### Port forwarding on 2 routers!
 This part messed me up & didn't think about it since I'm now connected to an extender/secondary router. An extra step is needed for forwarding a port on 2 routers. This part will not be very detailed, sorry it's a reminder for me.
-1. 
-2. 
-3. 
+1. The connection to be assumed: Internet -> Router 1 (Main) -> Router 2 (Extender/2nd Router) -> Device/PC.
+2. Enter the gateway of Router 1 and port forward to the IPV4 address of Router 2, with port 25565 + both UDP/TCP.
+3. Enter the gateway of Router 2 and port forward to the IPV4 address of the device running the server, with port 25565 + both UDP/TCP.
+- It's simple but I didn't think of it ever since getting a extender, so I wasted some time untill I found the reddit post below!
+
 
 ## Other Issues:
 - ### 2 Router setup/extender:
