@@ -16,7 +16,29 @@ After step 3 the server should be working!
 - If you come across issues/java linkage issues later on when the server starts you can read more about a java linking error I recieved when running my server by scrolling down or by clicking [here](#javalinkage) to take you down to where I talked about my java linkage issue! 
 
 # 2. Server Setup Guide
-abcd
+1. Choose a Server!
+  - Vanilla / Optimized Vanilla + Plugins
+    - Vanilla MC Server (1/5, Worst/Should never be used)
+    - CraftBukkit (2/5, Decent/Bad)
+    - Spigot (2-3/5, Decent/Better than CraftBukkit)
+    - Paper (3-4/5, Basically a performant Spigot) - [Papermc website](https://papermc.io/) with multiple performant different servers to choose from!
+    - ~~Tuinity (5/5, Performance Based)~~ 1.17.x Paper Fork? - Archived Repository
+    - ~~Airplane (5/5, Performance Based)~~ 1.17.1 Paper Fork? - Repository last commit dated 2 years ago
+    - Purpur (4-5/5, Very good & Performant + has extra functionality)
+  - Modded Servers
+    - Fabric
+    - Forge
+  - Modded Client (Can be used to download server files from!)
+    - CurseForge
+    - ATLauncher (Performant + Better than CurseForge)
+2. Setup guide!
+  - X
+  - Y
+  - Z
+3. Extra Notes & Custom Options!
+  - X
+  - Y Z
+
 
 # 3. Port-Forwarding
 ***These steps might be different for some people since not everyone has the same router brand, so it's a good idea to actually just look up a portforwarding guide on your specific router brand! But I made this since I just do it manually everytime & I came across a dumb issue with 2 routers that had me do an extra step I never had to do before!***
