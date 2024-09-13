@@ -28,16 +28,31 @@ After step 3 the server should be working!
   - Modded Servers
     - Fabric
     - Forge
-  - Modded Client (Can be used to download server files from!)
+  - Modded Client (Can be used to download server mod pack files from!)
     - CurseForge
     - ATLauncher (Performant + Better than CurseForge)
 2. Setup guide!
-  - X
-  - Y
-  - Z
+  - Setup the chosen server
+    -  X
+  - Setup Port & IP
+    - Y
+  - Test Connection!
+    - Z
 3. Extra Notes & Custom Options!
-  - X
-  - Y Z
+  - Server RAM Allocation: ```java -Xmx1024M -Xms1024M -jar minecraft_server_name.jar```
+    - ```-Xmx1024M``` this flag needs to be changed to dedicate different amounts of ram this is currently 1 GB.
+    - If you have 16 GB+ of RAM and its a server for some friends just allocate 4 GB, and there should be no issues.
+    - ```-Xmx4096M``` is 4 GB of ram dedicated to the server, which in most cases is more than good.
+    - Going 2 GB (```-Xmx2048M```) in most cases is also fine but mainly for vanilla, 4 GB is suggested for modded. If you have more players you also need to increase the amount, these amounts though are good enough for now. You can also just search up the amount of ram needed for your requirements online.
+  - Server Properties file:
+    - This controls a large part of how the server works, so go through it and set the parameters to what you want, here are some examples.
+    - ```pvp: false``` disables pvp
+    - ```force-gamemode=false``` will not force a gamemode (ex. you would turn this on if you played an adventure map that required adventure mode)
+    - ```server-ip=xxx.xxx.xxx.xxx``` IP for the server to run on
+    - ```server-port=25565``` port for the server to listen to
+    - ```resource-pack-prompt=``` if you play an adventure map you probably want to enter a custom message to how important getting the resource pack is
+    - ```simulation-distance=10``` if players have major lag, you can reduce this value (it ranges from 3 - 32, 10 is the default), this is what it does > *Sets the maximum distance from players that living entities may be located in order to be updated by the server, measured in chunks in each direction of the player (radius, not diameter). If entities are outside of this radius, then they will not be ticked by the server nor will they be visible to players.*
+    - Thats just a bunch of things that the file contains so go through it and customize your experience accordingly, if you are on a modded server you might want to check out the variables.txt file also!
 
 
 # 3. Port-Forwarding
